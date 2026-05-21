@@ -34,6 +34,8 @@ git clone https://github.com/d2wen/elpis
 
 ## 02. gitflow协同流程操作演示 {#three-two}
 
+![](/images/3.jpg)
+
 > [!warning]
 >
 > 只有两条分支 main 和 develop
