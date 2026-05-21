@@ -7,7 +7,7 @@ export default defineConfig({
   description: "一些 Elpis 的笔记", // 网站描述
   base: '/elpis/', // 网站根路径
   cleanUrls: true, // 当设置为 true 时，VitePress 将从 URL 中删除 .html 后缀。
-  lastUpdated: true, // 显示最后更新时间
+  // lastUpdated: true, // 显示最后更新时间
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: nav(), // 导航栏
@@ -34,6 +34,10 @@ export default defineConfig({
     outline: { // 文档大纲
       label: '页面导航',
       level: [2, 3]
+    },
+
+    lastUpdated: {
+      text: '最后更新于'
     },
 
     notFound: { // 404 页面
