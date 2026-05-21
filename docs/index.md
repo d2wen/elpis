@@ -4,18 +4,15 @@ layout: home
 
 hero:
   name: "Elpis"
-  text: "一些关于 Threejs 的简单笔记"
-  tagline: 老大，什么时候去码头搞点薯条🍟
+  text: "一款 中后台建站 系统"
+  tagline: 全栈全流程开发一个多网站建设的系统平台
   actions:
     - theme: brand
-      text: Three.js 世界观
-      link: ./note/threejs01
+      text: 项目介绍
+      link: ./note/elpis01
     - theme: alt
-      text: 坐标系与变换
-      link: ./note/threejs02
-    - theme: alt
-      text: 避坑指南
-      link: ./reference/threejs05
+      text: 使用指南
+      link: ./reference/elpisxx
 
 features:
   - icon: 📝
