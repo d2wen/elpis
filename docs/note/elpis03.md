@@ -218,7 +218,7 @@ ESLint 会扫描项目中所有的 `.js` 和 `.vue` 文件，并输出发现的�
 
 **落地代码：**
 
-`➡️ elpis/.eslintrc`
+`➡️ elpis/.eslintignore`
 
 ```
 node_modules/
