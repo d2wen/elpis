@@ -150,7 +150,7 @@ BFF层	业务层-- controller处理器 env环境分发 config提取 extend服务
 实现一个 根据 DSL 能动态生成具体系统 的解析引擎
 
 ```mermaid
-graph TD
+flowchart TD
     A[领域模型A] --> E[BFF Server]
     B[领域模型B] --> E[BFF Server]
     C[领域模型C] --> E[BFF Server]

@@ -90,6 +90,13 @@ function sidebarNote(): DefaultTheme.SidebarItem[] {
         { text: '技术选型与架构设计', link: 'elpis02' },
         { text: '项目初始化', link: 'elpis03' },
       ]
+    },
+    {
+      text: '服务端内核引擎',
+      collapsed: false,
+      items: [
+        { text: 'elpis-core 内核引擎设计', link: 'elpis04' },
+      ]
     }
   ]
 }
